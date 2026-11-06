@@ -1,0 +1,476 @@
+<!doctype html>
+<html lang="es-AR" class="v1">
+<head><meta name="mw-version" content="eb0abec1daa8f6c8"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><title>Astra · Tiradas de tarot online con IA</title><meta name="description" content="Astra, tarotista de IA: tiradas personalizadas con mil variables en cuenta. Atención 24/7 por WhatsApp, desde donde estés."><meta name="robots" content="noindex, nofollow"><meta name="theme-color" content="#0E0E10"><meta property="og:type" content="website"><meta property="og:site_name" content="Astra"><meta property="og:title" content="Astra · Tiradas de tarot online con IA"><meta property="og:description" content="Astra, tarotista de IA: tiradas personalizadas con mil variables en cuenta. Atención 24/7 por WhatsApp, desde donde estés."><meta property="og:image" content="https://miwebya.github.io/tiradasdetarotastra/og.jpg"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:url" content="https://miwebya.github.io/tiradasdetarotastra/"><meta property="og:locale" content="es_AR"><meta name="twitter:card" content="summary_large_image"><link rel="icon" type="image/png" href="favicon.png"><link rel="apple-touch-icon" href="apple-touch-icon.png"><link rel="preload" href="assets/fuentes/barlow-condensed-800-latin.woff2" as="font" type="font/woff2" crossorigin><link rel="preload" href="assets/fuentes/barlow-400-latin.woff2" as="font" type="font/woff2" crossorigin><link rel="preload" as="image" href="fotos/portada-576.webp" imagesrcset="fotos/portada-480.webp 480w, fotos/portada-576.webp 576w" imagesizes="100vw" fetchpriority="high"><style>@font-face{font-family:"Barlow Condensed";font-style:normal;font-weight:700;font-display:swap;src:url(assets/fuentes/barlow-condensed-700-latin-ext.woff2) format("woff2");unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF}
+@font-face{font-family:"Barlow Condensed";font-style:normal;font-weight:700;font-display:swap;src:url(assets/fuentes/barlow-condensed-700-latin.woff2) format("woff2");unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
+@font-face{font-family:"Barlow Condensed";font-style:normal;font-weight:800;font-display:swap;src:url(assets/fuentes/barlow-condensed-800-latin-ext.woff2) format("woff2");unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF}
+@font-face{font-family:"Barlow Condensed";font-style:normal;font-weight:800;font-display:swap;src:url(assets/fuentes/barlow-condensed-800-latin.woff2) format("woff2");unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
+@font-face{font-family:"Barlow";font-style:normal;font-weight:400;font-display:swap;src:url(assets/fuentes/barlow-400-latin-ext.woff2) format("woff2");unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF}
+@font-face{font-family:"Barlow";font-style:normal;font-weight:400;font-display:swap;src:url(assets/fuentes/barlow-400-latin.woff2) format("woff2");unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
+@font-face{font-family:"Barlow";font-style:normal;font-weight:500;font-display:swap;src:url(assets/fuentes/barlow-500-latin-ext.woff2) format("woff2");unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF}
+@font-face{font-family:"Barlow";font-style:normal;font-weight:500;font-display:swap;src:url(assets/fuentes/barlow-500-latin.woff2) format("woff2");unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
+@font-face{font-family:"Barlow";font-style:normal;font-weight:600;font-display:swap;src:url(assets/fuentes/barlow-600-latin-ext.woff2) format("woff2");unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF}
+@font-face{font-family:"Barlow";font-style:normal;font-weight:600;font-display:swap;src:url(assets/fuentes/barlow-600-latin.woff2) format("woff2");unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
+@font-face{font-family:"Barlow";font-style:normal;font-weight:700;font-display:swap;src:url(assets/fuentes/barlow-700-latin-ext.woff2) format("woff2");unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF}
+@font-face{font-family:"Barlow";font-style:normal;font-weight:700;font-display:swap;src:url(assets/fuentes/barlow-700-latin.woff2) format("woff2");unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
+:root{--acc:#5F51B8;--acc-ink:#FFFFFF;--acc-c:#5F51B8;--acc-o:#8479C8;--acc-s:#CFCBEA;--acc-h:rgba(95, 81, 184, 0.22);--acc-f:#B2ABDD}
+*,*::before,*::after{box-sizing:border-box}
+[hidden]{display:none!important}
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%;scroll-behavior:smooth;scroll-padding-top:84px}
+body{margin:0;background:var(--bg);color:var(--tx);font-family:var(--f-txt);font-size:var(--fs,16px);line-height:1.6;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;overflow-x:hidden;text-rendering:optimizeLegibility}
+img,video,svg{display:block;max-width:100%}
+img,video{height:auto}
+a{color:inherit}
+h1,h2,h3,p,figure,blockquote,dl,dd,ul,ol{margin:0}
+ul,ol{padding:0;list-style:none}
+button{font:inherit;color:inherit}
+h1,h2,h3{text-wrap:balance;overflow-wrap:break-word}
+p{overflow-wrap:break-word}
+.ic{width:1em;height:1em;flex:none}
+:focus-visible{outline:3px solid var(--foco,currentColor);outline-offset:3px}
+.sr{position:absolute!important;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0}
+.saltar{position:absolute;left:12px;top:-60px;z-index:100;padding:10px 14px;background:#fff;color:#111;border-radius:8px;font:600 14px/1 system-ui,sans-serif;text-decoration:none}
+.saltar:focus{top:12px}
+.envase{width:min(100% - 2*var(--gut), var(--ancho,1200px));margin-inline:auto}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:.55em;min-height:46px;text-decoration:none;text-align:center;cursor:pointer;-webkit-tap-highlight-color:transparent;transition:transform .15s ease,background-color .15s ease,box-shadow .15s ease,color .15s ease}
+.btn .ic{width:1.25em;height:1.25em}
+.btn:active{transform:translateY(1px)}
+.acciones{display:flex;flex-wrap:wrap;gap:10px}
+.sec{position:relative}
+/* Ajustes (4d): «quién te atiende» con el título renombrado lleva el nombre debajo */
+.per__nom{margin-top:6px;font-size:1.1em;font-weight:600}
+.foto{display:block;width:100%;height:100%;object-fit:cover;background:var(--foto-bg,rgba(127,127,127,.18))}
+.portada{position:relative}
+.portada__media{position:relative}
+.portada video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;transition:opacity .6s ease}
+.portada video.va{opacity:1}
+.cab{position:sticky;top:0;z-index:30;display:flex;align-items:center;justify-content:space-between;gap:12px;padding-inline:max(var(--gut),(100% - var(--ancho,1200px))/2)}
+.cab__nav{display:none}
+.cab__btn{flex:none}
+.marca{display:inline-flex;align-items:center;gap:10px;min-width:0;text-decoration:none}
+.marca__nom{min-width:0;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.marca__img{width:auto;height:var(--logo-h,40px);max-width:min(52vw,190px);object-fit:contain}
+.marca__img--chip{background:#fff;padding:4px;border-radius:10px}
+.marca__img--chip-oscuro{background:#16181D;padding:4px;border-radius:10px}
+.marca.marca--connombre{--logo-h:var(--logo-h-nombre,52px)}
+.marca--connombre .marca__img{max-width:min(60vw,220px)}
+.pie .marca--connombre{--logo-h:64px}
+.marca__img--borde{border-radius:8px}
+/* Con un nombre muy largo, en el celular el botón de la cabecera queda solo con el ícono (el texto sigue para lectores). */
+@media (max-width:479px){.cab--largo .cab__btn{width:46px;padding:0}.cab--largo .cab__btn span{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}}
+/* La cabecera solo tiene botones de acción (contrato, 4c): la acción y, si hay, el otro canal como ícono. */
+.cab__acciones{display:flex;align-items:center;gap:8px;flex:none}
+.cab .cab__marca{flex:0 1 auto;min-width:0}
+.cab .marca{max-width:100%}
+.cab .marca__img{max-width:100%}
+.cab__ic{display:grid;place-items:center;flex:none;width:42px;height:42px;border-radius:50%;border:1px solid currentColor;border-color:color-mix(in srgb,currentColor 35%,transparent);color:inherit;text-decoration:none}
+.cab__ic .ic{width:21px;height:21px}
+.cab__ic:hover{border-color:currentColor}
+.cab__mas{display:none}
+@media (min-width:720px){.cab__mas{display:inline}}
+/* La consulta discreta del modo vender */
+.consulta{margin-top:18px;font-size:14.5px}
+.consulta a{display:inline-flex;align-items:center;gap:8px;color:inherit;text-underline-offset:3px}
+.consulta .ic{width:18px;height:18px}
+.pie .consulta{margin-top:4px;font-size:14px}
+.item__media{position:relative;overflow:hidden}
+.mapa{position:relative;display:block;text-decoration:none;overflow:hidden}
+.mapa__pin{position:absolute;left:52%;top:36%}
+.redes{display:flex;flex-wrap:wrap;gap:10px}
+.redes a{display:inline-flex;align-items:center;gap:8px;text-decoration:none}
+.faq details>summary{list-style:none;cursor:pointer}
+.faq details>summary::-webkit-details-marker{display:none}
+.resenas__lista{display:grid;gap:16px}
+.estrellas{letter-spacing:2px}
+.pie{padding-bottom:calc(var(--pie-extra,0px) + var(--carro-h,0px) + 28px)}
+.mw{font-size:12px;opacity:.6;white-space:nowrap}
+/* Fotos dentro de cajas con proporción fija */
+.item__media>.foto,.per__fig>.foto{position:absolute;inset:0}
+/* Leyenda de una foto de item (sobre el pie de la foto) y del retrato (debajo). Cada variante le da su letra. */
+.foto-ley{position:absolute;left:0;right:0;bottom:0;padding:26px 12px 9px;background:linear-gradient(transparent,rgba(0,0,0,.66));color:#fff;font-size:12.5px;line-height:1.35;pointer-events:none}
+.per__foto{display:grid;gap:10px;align-content:start;min-width:0}
+.per__ley{font-size:13px;line-height:1.4;color:var(--mut)}
+/* Galería: grilla de celdas cuadradas (o con la proporción de --prop). La cantidad de columnas por ancho (--g0, --g1,
+--g2) y lo que ocupa cada foto (--c*, --r*) los calcula armar() según cuántas fotos hay, así nunca queda un hueco. */
+.galeria{--gg:8px;--prop:1;display:grid;gap:var(--gg);grid-template-columns:repeat(var(--g0),minmax(0,1fr));grid-auto-rows:calc((min(100vw - 2*var(--gut),var(--ancho,1200px)) - (var(--g0) - 1)*var(--gg))/var(--g0)*var(--prop))}
+.galeria__it{position:relative;overflow:hidden;grid-column:span var(--c0,1);grid-row:span var(--r0,1)}
+.galeria__it>a{position:absolute;inset:0}
+.galeria__it .foto{height:100%}
+.galeria__ley{display:none;position:absolute;left:0;right:0;bottom:0;padding:22px 12px 10px;background:linear-gradient(transparent,rgba(0,0,0,.62));color:#fff;font-size:13px;line-height:1.35;pointer-events:none}
+@media (min-width:720px){.galeria__ley{display:block}.galeria{grid-template-columns:repeat(var(--g1),minmax(0,1fr));grid-auto-rows:calc((min(100vw - 2*var(--gut),var(--ancho,1200px)) - (var(--g1) - 1)*var(--gg))/var(--g1)*var(--prop))}.galeria__it{grid-column:span var(--c1,1);grid-row:span var(--r1,1)}}
+@media (min-width:1024px){.galeria{grid-template-columns:repeat(var(--g2),minmax(0,1fr));grid-auto-rows:calc((min(100vw - 2*var(--gut),var(--ancho,1200px)) - (var(--g2) - 1)*var(--gg))/var(--g2)*var(--prop))}.galeria__it{grid-column:span var(--c2,1);grid-row:span var(--r2,1)}}
+/* Galería de 1 foto: a lo ancho entre secciones (de borde a borde en Impacto y Elegante; con su forma en Cercana y Clara) */
+.gal__una{position:relative;margin:0}
+.gal__una a{display:block;position:relative;aspect-ratio:16/10;overflow:hidden;border-radius:var(--una-radio,0)}
+.gal__una .foto{position:absolute;inset:0}
+.gal__ley{position:absolute;left:var(--gut);right:var(--gut);bottom:16px;color:#fff;font-size:15px;line-height:1.35;text-shadow:0 1px 12px rgba(0,0,0,.7);pointer-events:none}
+.sec.gal--sintitulo{padding-block:0}
+.v3 .sec.gal--sintitulo,.v4 .sec.gal--sintitulo{padding-block:36px}
+.v3{--una-radio:24px}.v4{--una-radio:18px}
+.v3 .gal__una .gal__ley,.v4 .gal__una .gal__ley{left:18px;right:18px}
+@media (min-width:720px){.gal__una a{aspect-ratio:21/8}.gal__ley{font-size:17px;bottom:24px;left:max(var(--gut),(100% - var(--ancho,1200px))/2)}}
+/* Galería de 2 o 3 fotos: una tira. Con 2, dos columnas; con 3, en el celular se desliza de costado. */
+.galeria.galeria--tira{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));grid-auto-rows:auto;gap:var(--gg)}
+.galeria--tira .galeria__it{grid-column:auto;grid-row:auto;aspect-ratio:4/5}
+.galeria.galeria--tira3{grid-template-columns:none;grid-auto-flow:column;grid-auto-columns:78%;overflow-x:auto;scroll-snap-type:x mandatory;margin-inline:calc(-1*var(--gut));padding:0 var(--gut) 6px;scroll-padding-inline:var(--gut);scrollbar-width:none}
+.galeria--tira3::-webkit-scrollbar{display:none}
+.galeria--tira3 .galeria__it{scroll-snap-align:start}
+.galeria--tira .galeria__ley{display:block}
+@media (min-width:720px){.galeria.galeria--tira,.galeria.galeria--tira3{grid-auto-flow:row;grid-template-columns:repeat(var(--n-tira,2),minmax(0,1fr));overflow:visible;margin-inline:0;padding:0}.galeria--tira3{--n-tira:3}.galeria--tira .galeria__it{aspect-ratio:4/3}}
+/* Reseñas: en el celular se deslizan de costado; en la compu, grilla. */
+.res__lista{display:grid;grid-auto-flow:column;grid-auto-columns:min(84%,400px);gap:14px;overflow-x:auto;scroll-snap-type:x mandatory;margin-inline:calc(-1*var(--gut));padding:4px var(--gut) 14px;scroll-padding-inline:var(--gut);scrollbar-width:thin}
+.res__it{scroll-snap-align:start;display:flex;flex-direction:column;justify-content:space-between;gap:16px}
+@media (min-width:900px){.res__lista{grid-auto-flow:row;grid-template-columns:repeat(3,minmax(0,1fr));overflow:visible;margin-inline:0;padding-inline:0}.res__lista--2,.res__lista--4{grid-template-columns:repeat(2,minmax(0,1fr))}}
+/* Botón flotante de WhatsApp */
+.flotante{position:fixed;right:max(16px,env(safe-area-inset-right));bottom:calc(16px + var(--barra-h,0px) + env(safe-area-inset-bottom));z-index:40;display:grid;place-items:center;width:58px;height:58px;border-radius:50%;background:#25D366;color:#fff;box-shadow:0 8px 22px rgba(0,0,0,.28);text-decoration:none;transition:transform .15s ease}
+.flotante .ic{width:31px;height:31px}
+.flotante:hover{transform:scale(1.05)}
+.flotante--ig{background:radial-gradient(circle at 30% 107%,#FDF497 0%,#FDF497 5%,#FD5949 45%,#D6249F 60%,#285AEB 90%)}
+/* La barra de la vista previa: es de MiWebYA, no del negocio. Letra del sistema, siempre igual. */
+.prueba{--barra-h:58px}
+.prueba .pie{--pie-extra:var(--barra-h)}
+.barra{position:fixed;left:0;right:0;bottom:0;z-index:50;display:flex;align-items:center;gap:10px;min-height:var(--barra-h);padding:8px max(12px,env(safe-area-inset-right)) calc(8px + env(safe-area-inset-bottom)) max(14px,env(safe-area-inset-left));background:rgba(11,13,19,.96);color:#F3F5F9;font:500 13px/1.3 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;border-top:1px solid rgba(255,255,255,.12);-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px)}
+.barra__marca{display:grid;place-items:center;flex:none;width:30px;height:30px;border-radius:50%;background:rgba(147,171,255,.14);color:#A9BCFF}
+.barra__marca .ic{width:18px;height:18px}
+.barra__txt{flex:1;min-width:0}
+.barra__txt [data-si]{display:none}
+.barra[data-estado=inicio] [data-si~=inicio],.barra[data-estado=abierta] [data-si~=abierta],.barra[data-estado=demo] [data-si~=demo],.barra[data-estado=frenada] [data-si~=frenada],.barra[data-estado=equipo] [data-si~=equipo],.barra[data-estado=terminada] [data-si~=terminada]{display:inline}
+.barra__txt b{white-space:nowrap;font:700 14.5px/1 ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-variant-numeric:tabular-nums;color:#FFD166;letter-spacing:.02em}
+.barra__largo{display:none}
+.barra__btn{flex:none;display:inline-flex;align-items:center;gap:6px;min-height:40px;padding:0 14px;border-radius:999px;background:#3D63F0;color:#fff;font-weight:650;text-decoration:none;white-space:nowrap}
+.barra__btn:hover{background:#2F54DE}
+.barra__btn .ic{width:18px;height:18px}
+.barra[data-estado=frenada] .barra__btn,.barra[data-estado=equipo] .barra__btn{display:none}
+.barra__ok{color:#7EE2A8}
+@media (min-width:720px){.barra{justify-content:center;gap:16px;font-size:14.5px}.barra__txt b{font-size:15px}.barra__btn{padding:0 16px}.barra__txt{flex:0 1 auto}.barra__largo{display:inline}}
+html.captura .barra,html.captura .flotante,html.video .barra,html.video .flotante{display:none!important}
+html.video{--barra-h:0px}
+html.video .prueba{--barra-h:0px}
+html.captura{--barra-h:0px;scroll-behavior:auto}
+html.captura .prueba{--barra-h:0px}
+/* En las capturas del control, nada se mueve: la página se ve como queda (las entradas de estilo.css, terminadas) */
+html.captura *,html.captura *::before,html.captura *::after{animation:none!important;transition:none!important}
+/* Galería ampliada */
+.amplia{width:100vw;max-width:100vw;height:100vh;max-height:100vh;margin:0;padding:0;border:0;background:rgba(8,8,10,.94);color:#fff}
+.amplia::backdrop{background:rgba(8,8,10,.94)}
+.amplia figure{display:grid;place-items:center;gap:10px;height:100%;padding:56px 12px 24px}
+.amplia img{max-width:100%;max-height:calc(100vh - 120px);width:auto;height:auto;object-fit:contain}
+.amplia figcaption{font:500 14px/1.4 system-ui,sans-serif;opacity:.85;text-align:center}
+.amplia button{position:absolute;display:grid;place-items:center;width:48px;height:48px;border:0;border-radius:50%;background:rgba(255,255,255,.12);color:#fff;cursor:pointer}
+.amplia button .ic{width:24px;height:24px}
+.amplia [data-accion=cerrar]{top:10px;right:10px}
+.amplia [data-accion=ant]{left:10px;top:50%;transform:translateY(-50%)}
+.amplia [data-accion=sig]{right:10px;top:50%;transform:translateY(-50%)}
+.galeria a{cursor:zoom-in}
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+/* Entradas al hacer scroll (contrato, 6; dueño, 01/11). Solo cuando el JS de arriba puso .mw-anim en <html> (con JS,
+movimiento permitido y sin ?captura): sin esa clase, la página está quieta y completa. Lo que entra lleva .mw-in
+(lo pone el JS al aparecer) y una animación, no una transición: así no pisa las transiciones de cada variante.
+Se mueve con las propiedades translate y scale, que no cambian el layout ni chocan con los transform de siempre.
+El carrito, la barra, el flotante y la cabecera no se animan. */
+.v1{--mw-dur:.8s;--mw-ease:cubic-bezier(.2,.75,.25,1);--mw-dy:34px;--mw-zoom:1.12;--mw-paso:90ms}
+.v2{--mw-dur:1.15s;--mw-ease:cubic-bezier(.25,.6,.25,1);--mw-dy:20px;--mw-zoom:1.07;--mw-paso:120ms}
+.v3{--mw-dur:.75s;--mw-ease:cubic-bezier(.34,1.4,.6,1);--mw-dy:28px;--mw-zoom:1.06;--mw-paso:80ms}
+.v4{--mw-dur:.65s;--mw-ease:cubic-bezier(.2,.7,.3,1);--mw-dy:18px;--mw-zoom:1.05;--mw-paso:70ms}
+@keyframes mw-sube{from{opacity:0;translate:0 var(--mw-dy,24px)}to{opacity:1;translate:0 0}}
+@keyframes mw-zoom{from{scale:var(--mw-zoom,1.08)}to{scale:1}}
+@keyframes mw-telon{from{clip-path:inset(100% 0 0 0)}to{clip-path:inset(0 0 0 0)}}
+@media (prefers-reduced-motion:no-preference){
+.mw-anim :is(.portada__txt,.portada__media,.sec__cab,.item,.sec2__it,.nums li,.nos__txt,.nos__fig,.per__fig,.per__txt,.res__it,.res__una,.galeria__it,.gal__una,.gal__ancha,.faq__lista,.donde__txt,.mapa,.cierre__in,.cli,.tra__it,.pas__it,.fra__it,.sec__accion):not(.mw-in){opacity:0}
+.mw-anim .mw-in{animation:mw-sube var(--mw-dur) var(--mw-ease) both}
+.mw-anim .mw-in:is(.item,.galeria__it,.gal__una,.gal__ancha,.per__fig,.tra__it,.fra__it) .foto,.mw-anim .per__fig.mw-in>.foto{animation:mw-zoom calc(var(--mw-dur)*1.8) cubic-bezier(.2,.6,.2,1) both;animation-delay:inherit}
+/* Impacto: las fotos se descubren con un telón de abajo hacia arriba, como bioarq.studio */
+.mw-anim.v1 .mw-in:is(.galeria__it,.gal__una,.per__fig,.fra__it){animation-name:mw-telon;animation-duration:calc(var(--mw-dur)*1.4)}
+}
+:root{--mw-variante:1;--bg:#0E0E10;--bg2:#141417;--card:#17171A;--linea:#2A2A30;--tx:#ECECEE;--mut:#A9A9B3;--suave:#CFCFD6;--f-tit:"Barlow Condensed","Arial Narrow","Roboto Condensed",Impact,sans-serif;--f-txt:"Barlow",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;--gut:20px;--ancho:1240px;--cab-h:64px;--foco:var(--acc-o);--foto-bg:#1B1B1F}
+@media (min-width:720px){:root{--gut:40px;--cab-h:76px}}
+@media (min-width:1024px){:root{--gut:56px}}
+body{font-size:16px;line-height:1.55}
+::selection{background:var(--acc);color:var(--acc-ink)}
+.ante{font:600 12px/1.3 var(--f-txt);letter-spacing:.22em;text-transform:uppercase;color:var(--acc-o);margin-bottom:14px}
+.h1{font:800 clamp(50px,15vw,124px)/.9 var(--f-tit);text-transform:uppercase;letter-spacing:.004em;color:#fff;margin-bottom:20px}
+.h1--l{font-size:clamp(44px,12vw,104px)}
+.h1--xl{font-size:clamp(38px,10vw,88px);line-height:.94}
+.h1__b{font-style:normal;color:var(--acc-o)}
+.h2{font:800 clamp(38px,10.5vw,76px)/.93 var(--f-tit);text-transform:uppercase;letter-spacing:.004em;color:#fff}
+.sec{padding:60px 0}
+.sec.alt{background:var(--bg2)}
+.sec__cab{margin-bottom:30px;max-width:900px}
+@media (min-width:720px){.sec{padding:92px 0}.sec__cab{margin-bottom:42px}}
+@media (min-width:1024px){.sec{padding:116px 0}}
+/* Botones */
+.btn--pri,.btn--cab{background:var(--acc);color:var(--acc-ink);font:700 13px/1.1 var(--f-txt);letter-spacing:.08em;text-transform:uppercase;padding:0 18px;border-radius:3px}
+.btn--pri:hover,.btn--cab:hover{filter:brightness(1.08)}
+.btn--cab{min-height:42px;padding:0 14px;font-size:12px}
+.btn--cab .ic{width:18px;height:18px}
+.btn--gde{min-height:56px;padding:0 24px;font-size:14px}
+.btn--sec{min-height:56px;padding:0 20px;border:1px solid rgba(255,255,255,.55);border-radius:3px;color:#fff;font:600 13px/1.1 var(--f-txt);letter-spacing:.08em;text-transform:uppercase}
+.btn--sec:hover{border-color:#fff;background:rgba(255,255,255,.08)}
+.btn--cierre{background:#0E0E10;color:#fff;font:700 14px/1.1 var(--f-txt);letter-spacing:.08em;text-transform:uppercase;padding:0 26px;border-radius:3px}
+.btn--cierre:hover{background:#000}
+/* Cabecera */
+.cab{height:var(--cab-h);background:linear-gradient(rgba(14,14,16,.88),rgba(14,14,16,0))}
+.cab::before{content:"";position:absolute;inset:0;z-index:-1;background:rgba(14,14,16,.94);box-shadow:0 1px 0 var(--linea);opacity:0;transition:opacity .25s ease;-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px)}
+.cab--sobre{margin-bottom:calc(-1*var(--cab-h))}
+.cab--solida::before{opacity:1}
+.cab__marca{min-width:0;text-decoration:none}
+.marca{color:#fff;font:800 25px/1 var(--f-tit);letter-spacing:.09em;text-transform:uppercase}
+.marca.largo{font-size:20px;letter-spacing:.05em}
+.marca.muy-largo{font-size:17px;letter-spacing:.03em;line-height:1.05}
+.marca__mono{display:none}
+.marca:not(.marca--img)::before{content:"";flex:none;width:10px;height:10px;background:var(--acc);transform:rotate(45deg)}
+.cab__nav a{color:#D9D9DF;font:600 12.5px/1 var(--f-txt);letter-spacing:.12em;text-transform:uppercase;padding:8px 0}
+.cab__nav a:hover{color:var(--acc-o)}
+/* Portada */
+.portada{display:grid;align-items:end;min-height:max(540px,calc(100vh - var(--barra-h,0px) - 46px));min-height:max(540px,calc(var(--pantalla,100svh) - var(--barra-h,0px) - 46px));isolation:isolate;color:#fff;background:#0E0E10}
+.portada__media{position:absolute;inset:0;z-index:-2;margin:0}
+.portada__foto{position:absolute;inset:0;height:100%}
+.portada::after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,rgba(14,14,16,.62) 0%,rgba(14,14,16,.82) 38%,rgba(14,14,16,.97) 100%)}
+/* Sobre la foto, el acento va en --acc-f: legible aunque la foto sea clara (15/10) */
+.portada .ante,.portada .h1__b,.portada .sello b{color:var(--acc-f)}
+.portada .sello{border-color:var(--acc-f)}
+/* Una sombra suave detrás del texto: con una foto clara, el texto sigue legible; con una oscura no se nota */
+.portada__txt{position:relative}
+.portada__txt::before{content:"";position:absolute;inset:-48px calc(-1*var(--gut));z-index:-1;background:radial-gradient(closest-side,rgba(14,14,16,.62),rgba(14,14,16,.38) 60%,rgba(14,14,16,0));pointer-events:none}
+.portada .ante,.portada .bajada,.portada .puntos{text-shadow:0 1px 14px rgba(0,0,0,.55)}
+.portada__in{padding-block:calc(var(--cab-h) + 48px) 40px}
+.portada__txt{max-width:820px}
+.bajada{color:#DEDEE4;font-size:17px;line-height:1.55;max-width:46ch;margin-bottom:28px}
+.puntos{display:flex;flex-wrap:wrap;gap:12px 24px;margin-top:28px;font:600 13px/1.3 var(--f-txt);letter-spacing:.07em;text-transform:uppercase;color:#E6E6EA}
+.puntos li{display:flex;align-items:center;gap:9px}
+.puntos__ic{display:grid;color:var(--acc-o)}
+.puntos .ic{width:20px;height:20px}
+.sello{display:inline-flex;align-items:baseline;gap:9px;margin-bottom:20px;padding:8px 13px;border:1px solid var(--acc-o);font:700 12px/1 var(--f-txt);letter-spacing:.18em;text-transform:uppercase;color:#fff;background:rgba(14,14,16,.35)}
+.sello b{font:800 21px/1 var(--f-tit);letter-spacing:.06em;color:var(--acc-o)}
+.portada .leyenda{display:none}
+@media (min-width:720px){.portada{min-height:max(620px,calc(var(--pantalla,100svh) - var(--barra-h,0px) - 50px))}.portada__in{padding-block:calc(var(--cab-h) + 80px) 64px}.bajada{font-size:19px}}
+@media (min-width:1024px){.portada::after{background:linear-gradient(90deg,rgba(14,14,16,.8) 0%,rgba(14,14,16,.25) 62%,rgba(14,14,16,0) 100%),linear-gradient(180deg,rgba(14,14,16,.5) 0%,rgba(14,14,16,.45) 45%,rgba(14,14,16,.96) 100%)}.portada{min-height:min(max(640px,calc(var(--pantalla,100svh) - var(--barra-h,0px) - 52px)),1000px)}.portada__in{padding-block:calc(var(--cab-h) + 72px) 64px}.portada .leyenda{display:block;position:absolute;right:var(--gut);bottom:22px;max-width:30ch;font-size:12.5px;color:rgba(255,255,255,.7);text-align:right}}
+.portada--corta{min-height:max(460px,calc(var(--pantalla,100svh)*.66))}
+@media (min-width:1024px){.portada--corta{min-height:min(max(520px,calc(var(--pantalla,100svh)*.68)),760px)}.portada--corta .portada__in{padding-block:calc(var(--cab-h) + 48px) 52px}}
+/* portada.alto «baja» (ajustes, 4d): la corta, todavía más baja */
+.portada--baja{min-height:max(400px,calc(var(--pantalla,100svh)*.5))}
+.portada--baja .portada__in{padding-block:calc(var(--cab-h) + 20px) 28px}
+.portada--baja .h1{margin-bottom:14px}
+.portada--baja .h1:not(.h1--l,.h1--xl){font-size:clamp(42px,11.5vw,96px)}
+.portada--baja .bajada{margin-bottom:20px}
+.portada--baja .puntos{margin-top:18px}
+@media (min-width:1024px){.portada--baja{min-height:min(max(460px,calc(var(--pantalla,100svh)*.52)),620px)}.portada--baja .portada__in{padding-block:calc(var(--cab-h) + 28px) 36px}}
+/* Cinta */
+.ticker{overflow:hidden;padding:14px 0;background:var(--acc);color:var(--acc-ink)}
+.ticker__pista{display:flex;width:max-content;animation:mw-marq 46s linear infinite}
+.ticker span{font:800 19px/1 var(--f-tit);letter-spacing:.1em;text-transform:uppercase;white-space:nowrap}
+.ticker i{font-style:normal;font-size:.55em;vertical-align:.25em;margin:0 .7em}
+@keyframes mw-marq{to{transform:translateX(-50%)}}
+/* Números */
+.nums{border-bottom:1px solid var(--linea)}
+.nums__lista{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1px;background:var(--linea)}
+/* números con título (ajustes.titulos.numeros, 4d) */
+.nums--cab{padding-top:48px}
+.nums--cab .sec__cab{margin-bottom:26px}
+@media (min-width:720px){.nums--cab{padding-top:72px}}
+.nums--3 .nums__lista{grid-template-columns:repeat(3,minmax(0,1fr))}
+.nums li{display:grid;align-content:center;gap:7px;padding:28px 8px;text-align:center;background:var(--bg)}
+.nums b{font:800 clamp(34px,10vw,64px)/1 var(--f-tit);color:#fff;overflow-wrap:anywhere}
+.nums span{font:600 11px/1.3 var(--f-txt);letter-spacing:.14em;text-transform:uppercase;color:var(--mut)}
+@media (min-width:720px){.nums--4 .nums__lista{grid-template-columns:repeat(4,minmax(0,1fr))}.nums li{padding:44px 12px}.nums span{font-size:12px}}
+/* Lo que hacemos */
+.items{display:grid;gap:14px}
+.item{display:flex;flex-direction:column;background:var(--card);border:1px solid var(--linea);border-radius:4px;overflow:hidden}
+.item__media{aspect-ratio:16/10}
+.item__media .foto{filter:saturate(.9);transition:transform .5s ease}
+.item:hover .item__media .foto{transform:scale(1.035)}
+.item__forma{position:absolute;inset:0;display:grid;place-items:center;background:repeating-linear-gradient(-45deg,rgba(255,255,255,.035) 0 10px,transparent 10px 20px),linear-gradient(135deg,#202026,#121215)}
+.item__forma::after{content:"";position:absolute;left:0;right:0;bottom:0;height:4px;background:var(--acc)}
+.item__forma span{font:800 clamp(84px,24vw,150px)/1 var(--f-tit);color:transparent;-webkit-text-stroke:2px var(--acc-o)}
+.items--sinfotos .item__media{aspect-ratio:16/8}
+.foto-ley{font:600 11px/1.35 var(--f-txt);letter-spacing:.1em;text-transform:uppercase;color:#E6E6EA}
+.per__ley{font:600 11.5px/1.4 var(--f-txt);letter-spacing:.1em;text-transform:uppercase}
+.item__etq{position:absolute;left:12px;top:12px;padding:7px 9px;border-radius:2px;background:var(--acc);color:var(--acc-ink);font:700 11px/1 var(--f-txt);letter-spacing:.1em;text-transform:uppercase}
+.item__cuerpo{display:flex;flex-direction:column;gap:7px;flex:1;padding:18px 18px 22px}
+.item__num{font:700 13px/1 var(--f-tit);letter-spacing:.14em;color:var(--acc-o)}
+.item__tit{font:800 26px/1 var(--f-tit);text-transform:uppercase;color:#fff;margin-top:2px}
+.item__txt{color:var(--mut);font-size:15.5px}
+.item__det{font:600 12px/1.35 var(--f-txt);letter-spacing:.1em;text-transform:uppercase;color:var(--suave)}
+.item__precio{margin-top:auto;padding-top:10px;font:800 25px/1 var(--f-tit);letter-spacing:.02em;color:var(--acc-o)}
+@media (min-width:720px){
+.items{grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.items--1{grid-template-columns:1fr}
+.items--3{grid-template-columns:repeat(3,minmax(0,1fr))}
+.items--5 .item:last-child{grid-column:span 2}
+.items--1 .item{flex-direction:row}
+.items--1 .item__media{flex:1.25;aspect-ratio:auto;min-height:380px}
+.items--1 .item__cuerpo{flex:1;justify-content:center;padding:44px}
+.items--1 .item__tit{font-size:40px}
+}
+@media (min-width:1024px){
+.items--4{grid-template-columns:repeat(4,minmax(0,1fr))}
+.items--5{grid-template-columns:repeat(6,minmax(0,1fr))}
+.items--5 .item,.items--5 .item:last-child{grid-column:span 2}
+.items--5 .item:nth-child(-n+2){grid-column:span 3}
+.items--6{grid-template-columns:repeat(3,minmax(0,1fr))}
+.items--2 .item__tit,.items--5 .item:nth-child(-n+2) .item__tit{font-size:32px}
+}
+/* Segunda lista */
+.sec2__lista{display:grid;border-top:1px solid var(--linea)}
+.sec2__it{display:flex;gap:16px;padding:22px 0;border-bottom:1px solid var(--linea)}
+.sec2__ic{display:grid;padding-top:7px;color:var(--acc)}
+.sec2__ic .ic{width:11px;height:11px}
+.sec2__tit{font:800 23px/1.05 var(--f-tit);text-transform:uppercase;color:#fff;margin-bottom:5px}
+.sec2__txt{color:var(--mut);font-size:15.5px}
+.sec2__det{margin-top:7px;font:600 12px/1.3 var(--f-txt);letter-spacing:.1em;text-transform:uppercase;color:var(--acc-o)}
+@media (min-width:720px){.sec2__lista{grid-template-columns:repeat(2,minmax(0,1fr));column-gap:40px}}
+@media (min-width:1024px){.sec2__lista:not(.sec2--2):not(.sec2--4){grid-template-columns:repeat(3,minmax(0,1fr))}}
+.sec2__ic--propio{padding-top:2px;color:var(--acc-o)}
+.sec2__ic--propio .ic{width:24px;height:24px}
+/* Nosotros */
+.nos__grid{display:grid;gap:36px}
+.nos__p{margin-top:16px;color:var(--suave);font-size:17px;max-width:60ch}
+.nos__fig{margin:0 14px 0 0}
+.nos__fig .foto{aspect-ratio:4/3;box-shadow:14px 14px 0 var(--acc)}
+.nos__fig .leyenda{margin-top:26px;font-size:13.5px;color:var(--mut)}
+.nos--sinfoto .nos__grid{max-width:880px}
+.nos--sinfoto .nos__p{font-size:19px}
+@media (min-width:1024px){.nos__grid{grid-template-columns:1fr 1fr;gap:80px;align-items:center}.nos--sinfoto .nos__grid{grid-template-columns:1fr}.nos__p{font-size:18px}}
+/* Galería */
+.galeria{--gg:6px}
+.galeria__it .foto{transition:transform .5s ease,filter .3s ease;filter:saturate(.92)}
+.galeria__it:hover .foto{transform:scale(1.04);filter:none}
+@media (min-width:720px){.galeria{--gg:8px}}
+/* Quién te atiende */
+.per__grid{display:grid;gap:30px}
+.per__fig{position:relative;aspect-ratio:1;overflow:hidden;max-width:520px;margin:0}
+.per__fig .foto{filter:grayscale(.2) contrast(1.04)}
+.per__fig::after{content:"";position:absolute;left:0;bottom:0;width:38%;height:5px;background:var(--acc)}
+.per__fig--ini{display:grid;place-items:center;background:repeating-linear-gradient(-45deg,rgba(255,255,255,.03) 0 10px,transparent 10px 20px),var(--card);border:1px solid var(--linea)}
+.per__fig--ini span{font:800 clamp(90px,26vw,150px)/1 var(--f-tit);color:var(--acc-o)}
+.per__rol{margin:8px 0 18px;font:600 13px/1.35 var(--f-txt);letter-spacing:.14em;text-transform:uppercase;color:var(--acc-o)}
+.per__p{margin-bottom:16px;color:var(--suave);font-size:17px;max-width:56ch}
+.per__txt .acciones{margin-top:8px}
+@media (min-width:720px){.per__grid{grid-template-columns:minmax(0,340px) 1fr;gap:56px;align-items:center}.per__fig{aspect-ratio:4/5}}
+@media (min-width:1024px){.per__grid{grid-template-columns:minmax(0,420px) 1fr;gap:80px}}
+/* Reseñas */
+.res--una{border-block:1px solid var(--linea)}
+.res__una blockquote p{font:800 clamp(30px,8vw,60px)/1.02 var(--f-tit);text-transform:uppercase;color:#fff;max-width:24ch;text-wrap:balance}
+.res__una figcaption,.res__it figcaption{margin-top:20px;font:600 12.5px/1.4 var(--f-txt);letter-spacing:.12em;text-transform:uppercase;color:var(--acc-o)}
+.res__it{padding:26px 24px;background:var(--card);border:1px solid var(--linea);border-radius:4px}
+.res__it blockquote p{font:500 17px/1.55 var(--f-txt);color:#E6E6EA}
+.res__it blockquote::before{content:"\201C";display:block;height:34px;font:800 64px/1 var(--f-tit);color:var(--acc-o)}
+.res__it figcaption{margin-top:0}
+.estrellas{color:var(--acc-o)}
+/* Preguntas */
+.faq__in{display:grid;gap:26px}
+.faq__lista{border-top:1px solid var(--linea)}
+.faq details{border-bottom:1px solid var(--linea)}
+.faq summary{display:flex;justify-content:space-between;align-items:center;gap:18px;padding:22px 0;font:700 18px/1.3 var(--f-txt);color:#fff}
+.faq summary:hover{color:var(--acc-o)}
+.faq__mas{width:22px;height:22px;color:var(--acc-o);transition:transform .2s ease}
+.faq details[open] .faq__mas{transform:rotate(45deg)}
+.faq__r{margin:-6px 0 0;padding-bottom:22px;color:var(--mut);max-width:62ch}
+@media (min-width:1024px){.faq__in{grid-template-columns:minmax(0,1fr) minmax(0,1.5fr);gap:72px;align-items:start}}
+/* Dónde estamos */
+.donde__grid{display:grid;gap:30px}
+.horarios div{display:flex;justify-content:space-between;gap:16px;padding:14px 0;border-bottom:1px solid var(--linea);font-size:16px}
+.horarios dt{color:var(--mut)}
+.horarios dd{font-weight:600;text-align:right}
+.donde__p{margin-top:14px;color:var(--suave)}
+.donde .acciones{margin-top:22px}
+.redes{margin-top:24px}
+.redes a{min-height:46px;padding:0 15px;border:1px solid var(--linea);border-radius:3px;font-weight:600;font-size:15px}
+.redes a:hover{border-color:var(--acc-o)}
+.redes .ic{width:20px;height:20px;color:var(--acc-o)}
+.mapa{min-height:250px;border:1px solid var(--linea);border-radius:4px;background-color:#141417;background-image:linear-gradient(28deg,transparent 46%,rgba(255,255,255,.15) 46.5%,rgba(255,255,255,.15) 49.5%,transparent 50%),linear-gradient(-62deg,transparent 60%,rgba(255,255,255,.08) 60.4%,rgba(255,255,255,.08) 62%,transparent 62.4%),linear-gradient(rgba(255,255,255,.05) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.05) 1px,transparent 1px);background-size:100% 100%,100% 100%,24px 24px,24px 24px}
+.mapa__pin{width:24px;height:24px;border-radius:50% 50% 50% 0;background:var(--acc);transform:rotate(-45deg);box-shadow:0 0 0 9px var(--acc-h)}
+.mapa__btn{position:absolute;left:16px;bottom:16px;display:inline-flex;align-items:center;gap:9px;min-height:48px;padding:0 18px;border:1px solid rgba(255,255,255,.55);border-radius:3px;background:rgba(14,14,16,.7);color:#fff;font:600 13px/1 var(--f-txt);letter-spacing:.08em;text-transform:uppercase}
+.mapa__btn .ic{width:19px;height:19px;color:var(--acc-o)}
+.mapa:hover .mapa__btn{border-color:#fff}
+@media (min-width:900px){.donde__grid{grid-template-columns:minmax(0,1fr) minmax(0,1.25fr);gap:64px;align-items:stretch}.mapa{min-height:360px}.donde--solo .donde__grid{grid-template-columns:minmax(0,760px)}}
+/* Cierre */
+.cierre{padding:60px 0;background:var(--acc);color:var(--acc-ink)}
+.cierre__in{display:grid;gap:26px;justify-items:start}
+.cierre .h2{color:var(--acc-ink);max-width:16ch}
+.cierre__p{margin-top:12px;font-size:17px;max-width:48ch;opacity:.86}
+@media (min-width:900px){.cierre{padding:92px 0}.cierre__in{grid-template-columns:1fr auto;align-items:center;gap:48px}}
+/* Pie */
+.pie{padding-top:40px;border-top:1px solid var(--linea);color:var(--mut);font-size:14.5px}
+.pie__in{display:grid;gap:22px}
+.pie__marca{display:grid;gap:10px;justify-items:start}
+.pie .marca{font-size:22px}
+.pie__redes{margin:0}
+.pie__redes a{justify-content:center;width:46px;height:46px;border:1px solid var(--linea);border-radius:50%}
+.pie__redes a:hover{border-color:var(--acc-o);color:var(--acc-o)}
+.pie__redes .ic{width:20px;height:20px}
+@media (min-width:900px){.pie__in{grid-template-columns:1fr auto auto;align-items:center;gap:36px}}
+</style><script>(function(d,w){var c=d.documentElement;c.className+=' js';if(/[?&]captura(=|&|$)/.test(location.search)){c.className+=' captura';c.style.setProperty('--pantalla',innerHeight+'px')}else{if(/[?&]video(=|&|$)/.test(location.search))c.className+=' video';if(w.matchMedia&&w.matchMedia('(prefers-reduced-motion: no-preference)').matches&&w.requestAnimationFrame&&c.classList){c.classList.add('mw-anim');setTimeout(function(){if(!w.mwEntradas)c.classList.remove('mw-anim')},4000)}}})(document,window)</script></head>
+<body class="v v1 prueba mw-estilo"><a class="saltar" href="#contenido">Saltar al contenido</a><svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><defs><symbol id="i-reloj" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/></g></symbol><symbol id="i-chat" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 5.5h15a1 1 0 0 1 1 1V16a1 1 0 0 1-1 1H10l-4.5 3.5V17h-1a1 1 0 0 1-1-1V6.5a1 1 0 0 1 1-1z"/></g></symbol><symbol id="i-estrella" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m12 3.8 2.5 5.2 5.7.8-4.1 4 1 5.6-5.1-2.7-5.1 2.7 1-5.6-4.1-4 5.7-.8z"/></g></symbol><symbol id="i-wa" viewBox="0 0 24 24"><path d="M12 3.2a8.8 8.8 0 0 0-7.6 13.2L3.2 20.8l4.5-1.2A8.8 8.8 0 1 0 12 3.2z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M9.1 8.2c.2-.4.5-.4.7-.4h.5c.2 0 .4 0 .5.4l.7 1.6c.1.2 0 .4-.1.6l-.5.6c-.1.1-.2.3 0 .5.6 1 1.4 1.8 2.4 2.3.2.1.4.1.5-.1l.6-.7c.2-.2.4-.2.6-.1l1.5.7c.2.1.4.2.4.4 0 .5-.2 1.1-.6 1.4-.5.4-1.2.6-1.9.4-1.5-.4-2.9-1.3-4-2.4s-2-2.5-2.3-4c-.2-.6 0-1.3.3-1.7z" fill="currentColor"/></symbol><symbol id="i-mas" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M5 12h14"/></g></symbol><symbol id="i-instagram" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4"/></g><circle cx="17.2" cy="6.8" r="1.1" fill="currentColor"/></symbol><symbol id="i-globo" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.6 3.8 5.6 3.8 9s-1.3 6.4-3.8 9c-2.5-2.6-3.8-5.6-3.8-9S9.5 5.6 12 3z"/></g></symbol><symbol id="i-cerrar" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 6l12 12M18 6 6 18"/></g></symbol><symbol id="i-ant" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5l-7 7 7 7"/></g></symbol><symbol id="i-sig" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 5l7 7-7 7"/></g></symbol></defs></svg><header class="cab cab--sobre"><div class="cab__marca" aria-label="Astra"><span class="marca marca--img "><img class="marca__img marca__img--borde" src="assets/logo.webp" width="265" height="512" alt=""><span class="marca__nom">Astra</span></span></div><div class="cab__acciones"><a class="cab__ic" href="https://instagram.com/starot.online.ar" target="_blank" rel="noopener" aria-label="Instagram de Astra"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="#i-instagram"/></svg></a><a class="btn btn--cab cab__btn" href="https://wa.me/5493518797674?text=%C2%A1Hola%20Astra!%20Vi%20tu%20web%20y%20quer%C3%ADa%20pedir%20una%20tirada" target="_blank" rel="noopener"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="#i-wa"/></svg><span>Pedí tu tirada</span></a></div></header><main id="contenido"><section class="portada portada--video portada--completa" aria-labelledby="h-portada"><div class="portada__in envase"><div class="portada__txt"><p class="sello"><span>atendí a</span><b>+1.000</b></p><p class="ante">Tarot online · Astra, tarotista de IA</p><h1 class="h1" id="h-portada"><span class="h1__a">La mejor tirada</span> <em class="h1__b">de tu vida</em></h1><p class="bajada">Soy Astra, tarotista de IA. Leo tu consulta con mil variables en cuenta y te respondo por WhatsApp, a la hora que escribas.</p><div class="acciones"><a class="btn btn--pri btn--gde" href="https://wa.me/5493518797674?text=%C2%A1Hola%20Astra!%20Vi%20tu%20web%20y%20quer%C3%ADa%20pedir%20una%20tirada" target="_blank" rel="noopener"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="#i-wa"/></svg><span>Pedí tu tirada por WhatsApp</span></a></div><ul class="puntos"><li><span class="puntos__ic"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="#i-reloj"/></svg></span><span>Atención 24/7</span></li><li><span class="puntos__ic"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="#i-chat"/></svg></span><span>Todo por WhatsApp</span></li><li><span class="puntos__ic"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="#i-estrella"/></svg></span><span>Tiradas personalizadas</span></li></ul></div><figure class="portada__media"><img class="foto portada__foto" src="fotos/portada-576.webp" srcset="fotos/portada-480.webp 480w, fotos/portada-576.webp 576w" sizes="100vw" width="576" height="1024" alt="Manos sacando cartas de tarot sobre una mesa oscura" fetchpriority="high" style="object-position:50% 70%"><video muted loop playsinline preload="none" aria-hidden="true" tabindex="-1" data-src="video/portada.mp4" poster="fotos/video-poster-720.webp"></video></figure></div></section><div class="ticker" aria-hidden="true"><div class="ticker__pista"><span>Tirada personalizada <i>●</i> Astra, tarotista de IA <i>●</i> Consultas por WhatsApp <i>●</i> Tirada personalizada <i>●</i> Astra, tarotista de IA <i>●</i> Consultas por WhatsApp <i>●</i> Tirada personalizada <i>●</i> Astra, tarotista de IA <i>●</i> Consultas por WhatsApp <i>●</i> </span><span>Tirada personalizada <i>●</i> Astra, tarotista de IA <i>●</i> Consultas por WhatsApp <i>●</i> Tirada personalizada <i>●</i> Astra, tarotista de IA <i>●</i> Consultas por WhatsApp <i>●</i> Tirada personalizada <i>●</i> Astra, tarotista de IA <i>●</i> Consultas por WhatsApp <i>●</i> </span></div></div><section class="nums nums--3" aria-label="En números"><ul class="nums__lista envase"><li><b>+1.000</b><span>personas atendidas</span></li><li><b>200</b><span>clientes fieles</span></li><li><b>25</b><span>veces volvió a consultar un mismo cliente</span></li></ul></section><section class="sec lqh" id="loQueHacemos" aria-labelledby="h-lqh"><div class="envase"><div class="sec__cab"><p class="ante">Lo que hago</p><h2 class="h2" id="h-lqh">Tiradas que responden tu pregunta</h2></div><div class="items items--3"><article class="item"><div class="item__media"><img class="foto" src="fotos/item-1-1080.webp" srcset="fotos/item-1-480.webp 480w, fotos/item-1-960.webp 960w, fotos/item-1-1080.webp 1080w" sizes="(min-width: 1100px) 33vw, (min-width: 720px) 50vw, 100vw" width="1080" height="1920" alt="Carta astral con planetas sobre fondo violeta estrellado" loading="lazy" decoding="async" style="object-position:50% 55%"></div><div class="item__cuerpo"><span class="item__num" aria-hidden="true">01</span><h3 class="item__tit">Tirada personalizada</h3><p class="item__txt">Cada tirada se arma para tu caso, con mil variables en cuenta.</p></div></article><article class="item"><div class="item__media"><img class="foto" src="fotos/item-2-1080.webp" srcset="fotos/item-2-480.webp 480w, fotos/item-2-960.webp 960w, fotos/item-2-1080.webp 1080w" sizes="(min-width: 1100px) 33vw, (min-width: 720px) 50vw, 100vw" width="1080" height="1920" alt="Pantalla con consultas de clientes a Astra sobre fondo violeta" loading="lazy" decoding="async" style="object-position:50% 40%"></div><div class="item__cuerpo"><span class="item__num" aria-hidden="true">02</span><h3 class="item__tit">Astra, tarotista de IA</h3><p class="item__txt">No es una tirada genérica: soy una tarotista de IA y leo tu situación con todo lo que me contás.</p></div></article><article class="item"><div class="item__media"><img class="foto" src="fotos/item-3-576.webp" srcset="fotos/item-3-480.webp 480w, fotos/item-3-576.webp 576w" sizes="(min-width: 1100px) 33vw, (min-width: 720px) 50vw, 100vw" width="576" height="1024" alt="Celular con un chat de Astra tarot y un audio de respuesta" loading="lazy" decoding="async" style="object-position:50% 45%"></div><div class="item__cuerpo"><span class="item__num" aria-hidden="true">03</span><h3 class="item__tit">Consultas por WhatsApp</h3><p class="item__txt">Escribís tu pregunta y te respondo por chat. A cualquier hora, todos los días.</p><p class="item__det">24/7</p></div></article></div></div></section><section class="sec nos alt" aria-labelledby="h-nos"><div class="envase nos__grid"><div class="nos__txt"><div class="sec__cab"><p class="ante">Quién soy</p><h2 class="h2" id="h-nos">Astra, tarot con IA</h2></div><p class="nos__p">Atendí a más de 1.000 personas y tengo 200 clientes fieles; hay quien volvió a consultarme hasta 25 veces. Trabajo online, sin local, a toda hora.</p></div><figure class="nos__fig"><img class="foto" src="fotos/nosotros-576.webp" srcset="fotos/nosotros-480.webp 480w, fotos/nosotros-576.webp 576w" sizes="(min-width: 900px) 45vw, 100vw" width="576" height="1024" alt="Manos sosteniendo un celular con el chat de Astra tarot" loading="lazy" decoding="async" style="object-position:50% 45%"></figure></div></section><section class="sec gal gal--una gal--sintitulo" id="galeria" aria-label="Tarjeta con el mensaje de una clienta"><figure class="gal__una"><a href="fotos/galeria-1-1080.webp" data-ampliar data-alt="Tarjeta con el mensaje de una clienta" aria-label="Ver foto 1 de 1: Tarjeta con el mensaje de una clienta"><img class="foto" src="fotos/galeria-1-1080.webp" srcset="fotos/galeria-1-480.webp 480w, fotos/galeria-1-960.webp 960w, fotos/galeria-1-1080.webp 1080w" sizes="100vw" width="1080" height="1920" alt="Tarjeta con el mensaje de una clienta" loading="lazy" decoding="async"></a></figure></section><section class="sec faq alt" id="preguntas" aria-labelledby="h-faq"><div class="envase faq__in"><div class="sec__cab"><p class="ante">Preguntas frecuentes</p><h2 class="h2" id="h-faq">Lo que más nos preguntan</h2></div><div class="faq__lista"><details><summary><span>¿Cómo pido una tirada?</span><svg class="ic faq__mas" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="#i-mas"/></svg></summary><p class="faq__r">Me escribís por WhatsApp y ahí mismo arrancamos.</p></details><details><summary><span>¿A qué hora puedo escribir?</span><svg class="ic faq__mas" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="#i-mas"/></svg></summary><p class="faq__r">Cuando quieras: atiendo 24/7.</p></details><details><summary><span>¿Tenés local?</span><svg class="ic faq__mas" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="#i-mas"/></svg></summary><p class="faq__r">No, trabajo online. Todo se hace por WhatsApp.</p></details></div></div></section><section class="sec donde donde--solo" id="donde" aria-labelledby="h-donde"><div class="envase donde__grid"><div class="donde__txt"><div class="sec__cab"><p class="ante">Envíos</p><h2 class="h2" id="h-donde">Atiendo online, sin local: todo por WhatsApp</h2></div><p class="donde__p">Todos los días, las 24 horas</p><ul class="redes"><li><a href="https://instagram.com/starot.online.ar" target="_blank" rel="noopener"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="#i-instagram"/></svg><span>@starot.online.ar</span></a></li></ul></div></div></section><section class="cierre" aria-labelledby="h-cierre"><div class="envase cierre__in"><div class="cierre__txt"><h2 class="h2" id="h-cierre">¿Querés tu tirada?</h2></div><a class="btn btn--cierre btn--gde" href="https://wa.me/5493518797674?text=%C2%A1Hola%20Astra!%20Vi%20tu%20web%20y%20quer%C3%ADa%20pedir%20una%20tirada" target="_blank" rel="noopener"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="#i-wa"/></svg><span>Pedí tu tirada por WhatsApp</span></a></div></section></main><footer class="pie"><div class="envase pie__in"><div class="pie__marca"><span class="marca marca--img "><img class="marca__img marca__img--borde" src="assets/logo.webp" width="265" height="512" alt=""><span class="marca__nom">Astra</span></span><p class="pie__frase">Tarot online con Astra, tarotista de IA</p></div><ul class="redes pie__redes"><li><a href="https://instagram.com/starot.online.ar" target="_blank" rel="noopener" aria-label="Instagram"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="#i-instagram"/></svg></a></li></ul><p class="mw">Hecha con MiWebYA</p></div></footer><a class="flotante" href="https://wa.me/5493518797674?text=%C2%A1Hola%20Astra!%20Vi%20tu%20web%20y%20quer%C3%ADa%20pedir%20una%20tirada" target="_blank" rel="noopener" aria-label="Escribinos por WhatsApp"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="#i-wa"/></svg></a><div id="mw-barra" class="barra" data-estado="inicio" data-minutos="30" role="region" aria-label="Vista previa de MiWebYA"><span class="barra__marca"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="#i-globo"/></svg></span><p class="barra__txt"><span data-si="inicio abierta demo">Vista previa<span class="barra__largo"> de tu web</span> · se borra en <b data-reloj>30:00</b></span><span data-si="frenada"><span class="barra__ok">Pago en revisión</span><span class="barra__largo"> · tu web no se borra mientras lo confirmamos</span></span><span data-si="equipo">Vista del equipo: el reloj del cliente no corre</span><span data-si="terminada">Esta vista previa terminó</span></p><a class="barra__btn" href="https://wa.me/5493517539488?text=%C2%A1Hola!%20Quiero%20dejar%20activa%20la%20web%20de%20Astra%20(tiradasdetarotastra.miwebya.online)" target="_blank" rel="noopener"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="#i-wa"/></svg><span>La quiero</span></a></div><dialog id="mw-foto" class="amplia" aria-label="Foto ampliada"><figure><img alt=""><figcaption hidden></figcaption></figure><button type="button" data-accion="cerrar" aria-label="Cerrar"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="#i-cerrar"/></svg></button><button type="button" data-accion="ant" aria-label="Foto anterior"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="#i-ant"/></svg></button><button type="button" data-accion="sig" aria-label="Foto siguiente"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="#i-sig"/></svg></button></dialog><script>(function(d,w){
+var html=d.documentElement,captura=/\bcaptura\b/.test(html.className);
+var quieto=w.matchMedia&&w.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+/* Entradas al hacer scroll (contrato, 6): lo que llega a la pantalla (o ya pasó, si el scroll fue rápido) entra, con un
+   escalón corto entre los que entran juntos. Lo que está a la vista al cargar entra enseguida. */
+if(html.classList&&html.classList.contains('mw-anim')){try{w.mwEntradas=1;
+var pend=[].slice.call(d.querySelectorAll('.portada__txt,.portada__media,.sec__cab,.item,.sec2__it,.nums li,.nos__txt,.nos__fig,.per__fig,.per__txt,.res__it,.res__una,.galeria__it,.gal__una,.gal__ancha,.faq__lista,.donde__txt,.mapa,.cierre__in,.cli,.tra__it,.pas__it,.fra__it,.sec__accion'));
+var paso=parseFloat(getComputedStyle(html).getPropertyValue('--mw-paso'))||90,espera=0;
+var barre=function(primera){espera=0;var h=w.innerHeight||d.documentElement.clientHeight,n=0,quedan=[];
+for(var i=0;i<pend.length;i++){var el=pend[i],r=el.getBoundingClientRect();
+if(r.top<h*(primera?1:.9)){el.style.animationDelay=(r.bottom<0?0:Math.min(n++,5)*paso)+'ms';el.classList.add('mw-in')}else quedan.push(el)}
+pend=quedan;if(!pend.length){w.removeEventListener('scroll',pide);w.removeEventListener('resize',pide)}};
+var pide=function(){if(!espera){espera=1;w.requestAnimationFrame(function(){barre(false)})}};
+barre(true);w.addEventListener('scroll',pide,{passive:true});w.addEventListener('resize',pide);w.addEventListener('load',pide);
+}catch(e){html.classList.remove('mw-anim')}}
+
+/* Capturas limpias: todas las fotos de una, sin esperar a que se vean. */
+if(captura){var im=d.querySelectorAll('img[loading=lazy]');for(var i=0;i<im.length;i++)im[i].loading='eager'}
+
+/* La cabecera se vuelve sólida cuando se deja atrás la portada. */
+var cab=d.querySelector('.cab'),por=d.querySelector('.portada');
+if(cab&&por){var pinta=0,ver=function(){pinta=0;var s=(w.scrollY||w.pageYOffset)>por.offsetHeight-cab.offsetHeight-8;if(s!==cab.classList.contains('cab--solida'))cab.classList.toggle('cab--solida')};
+w.addEventListener('scroll',function(){if(!pinta){pinta=1;(w.requestAnimationFrame||setTimeout)(ver)}},{passive:true});ver()}
+
+/* Video de portada: se baja después de todo lo demás, y no si el celular pide ahorrar datos o menos movimiento. */
+var vid=d.querySelector('video[data-src]');
+if(vid&&!captura&&!quieto&&!(navigator.connection&&navigator.connection.saveData)){
+var arranca=function(){vid.src=vid.getAttribute('data-src');vid.addEventListener('playing',function(){vid.classList.add('va')});var p=vid.play();if(p&&p.catch)p.catch(function(){})};
+if(d.readyState==='complete')arranca();else w.addEventListener('load',arranca)}
+
+/* Galería: tocar una foto la abre grande, con anterior y siguiente. Sin JS, el link abre la foto sola. */
+var dlg=d.getElementById('mw-foto'),fotos=d.querySelectorAll('a[data-ampliar]');
+if(dlg&&fotos.length&&typeof dlg.showModal==='function'){
+var dim=dlg.querySelector('img'),dcap=dlg.querySelector('figcaption'),actual=0;
+var muestra=function(n){actual=(n+fotos.length)%fotos.length;var a=fotos[actual];dim.src=a.getAttribute('href');dim.alt=a.getAttribute('data-alt')||'';dcap.textContent=a.getAttribute('data-leyenda')||'';dcap.hidden=!dcap.textContent};
+for(var f=0;f<fotos.length;f++)(function(n){fotos[n].addEventListener('click',function(e){e.preventDefault();muestra(n);dlg.showModal()})})(f);
+dlg.addEventListener('click',function(e){var t=e.target.closest?e.target.closest('[data-accion]'):null;if(t){var a=t.getAttribute('data-accion');if(a==='cerrar')dlg.close();else muestra(actual+(a==='sig'?1:-1))}else if(e.target===dlg)dlg.close()});
+dlg.addEventListener('keydown',function(e){if(e.key==='ArrowRight')muestra(actual+1);else if(e.key==='ArrowLeft')muestra(actual-1)})}
+
+/* La barra de la vista previa (sección 6 del contrato). */
+var barra=d.getElementById('mw-barra');
+if(!barra||captura||/\bvideo\b/.test(html.className))return;
+var reloj=barra.querySelector('[data-reloj]'),minutos=parseFloat(barra.getAttribute('data-minutos'))||30;
+var fin=0,demo=false,tictac=null,sondeo=null;
+var pad=function(n){return(n<10?'0':'')+n};
+var formato=function(ms){var s=Math.max(0,Math.ceil(ms/1000)),h=Math.floor(s/3600),m=Math.floor(s%3600/60),x=s%60;return(h?h+':'+pad(m):pad(m))+':'+pad(x)};
+var tic=function(){var q=fin-Date.now();reloj.textContent=formato(q);if(q<=0){parar();if(!demo)consultar()}};
+var parar=function(){if(tictac){clearInterval(tictac);tictac=null}};
+var estado=function(e){barra.setAttribute('data-estado',e)};
+var recarga=function(){
+  /* Si el servidor dice «vencida» pero vuelve a mandar esta misma página, no recargar en bucle. */
+  try{var k='mw-recarga',t=+sessionStorage.getItem(k)||0;if(Date.now()-t<15000){estado('terminada');return}sessionStorage.setItem(k,String(Date.now()))}catch(e){}
+  location.reload()};
+var aplica=function(r){
+  if(!r||typeof r.estado!=='string')throw new Error('respuesta');
+  var e=r.estado;
+  if(e==='vencida'||e==='final'){parar();recarga();return}
+  if(e==='abierta'){var ta=+r.terminaAt,ah=+r.ahora;if(!isFinite(ta)||!isFinite(ah))throw new Error('reloj');
+    fin=Date.now()+(ta-ah);estado('abierta');if(!tictac)tictac=setInterval(tic,1000);tic();return}
+  if(e==='frenada'||e==='equipo'){parar();estado(e);return}
+  throw new Error('estado')};
+var pide=function(metodo,ruta){
+  var ctl=w.AbortController?new AbortController():null,corte=setTimeout(function(){if(ctl)ctl.abort()},6000);
+  var op={method:metodo,cache:'no-store',credentials:'same-origin',headers:{'Accept':'application/json'}};
+  if(ctl)op.signal=ctl.signal;
+  if(metodo==='POST'){op.headers['Content-Type']='application/json';op.body=JSON.stringify({search:location.search})}
+  return fetch(ruta+location.search,op).then(function(res){clearTimeout(corte);if(!res.ok)throw new Error('http '+res.status);return res.json()})};
+var consultar=function(){pide('GET','/__mw/estado').then(aplica).catch(function(){})};
+var modoDemo=function(){demo=true;estado('demo');fin=Date.now()+minutos*60000;parar();tictac=setInterval(tic,1000);tic()};
+if(!w.fetch||location.protocol==='file:'){modoDemo();return}
+pide('POST','/__mw/abrir').then(function(r){aplica(r);sondeo=setInterval(consultar,60000)}).catch(modoDemo);
+})(document,window)</script></body>
+</html>
